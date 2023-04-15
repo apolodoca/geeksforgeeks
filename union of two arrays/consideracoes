@@ -1,0 +1,19 @@
+ Using the <set> data structure I could do it in a way easier but at the same time similar manner to the one I made,
+ very cool.
+
+ #include <iostream>
+ #include <set>
+
+ int main()
+ {
+     std::set<char> a;
+     a.insert('G');
+     a.insert('F');
+     a.insert('G');
+     for (auto& str : a) {
+         std::cout << str << ' ';
+     }
+     std::cout << '\n';
+     return 0;
+ }
+ example of a set.
